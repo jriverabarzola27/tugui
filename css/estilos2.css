@@ -1,0 +1,350 @@
+
+.text_tugui{
+  background-color: #4907A5 !important;
+  border-radius: 10px !important;
+}
+
+.btn-tugui:hover {
+  color: #FFFFFF;
+  background-color: #4907A5;
+  border-color: #4907A5;
+}
+
+.btn-tugui {
+  color: #03F4CA;
+  border-color: #03F4CA;
+}
+
+.titulo_espacio_tugui {
+  text-align: left;
+  height: 110px;
+}
+
+.estilo-header-opciones a{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 650;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #FFFFFF !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #8c8c8c !important;
+}
+
+
+
+.estilo-header-opciones li{
+  margin-left: 5px !important;
+  margin-right: 10px !important;
+}
+
+.titulo_espacio_tugui_white  {
+  text-align: left;
+  height: 110px;
+  color: #FFFFFF;
+}
+
+.titulo_espacio_tugui h1 {
+  border-bottom: 15px solid #4907A5;
+  width: fit-content;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 43px;
+  font-weight: 650;
+  width: 221px;
+}
+
+.titulo_espacio_tugui_white h1 {
+  border-bottom: 8px solid #03F4CA;
+  width: fit-content;
+}
+
+.miembros_image img{
+  border-radius: 50%;
+}
+
+#footer{
+  background: #000000;
+  
+}
+
+#footer a{
+  color: white; 
+}
+
+#footer small{
+  color: white; 
+}
+
+#footer h5{
+  color: white; 
+}
+
+.header-navbar{
+  background-color: #000000;
+
+}
+
+.bg-dark :first-child {
+  background-color: #000000!important;
+}
+
+.navbar-nav > li{
+  padding-left:20px;
+  padding-right:10px;
+}
+
+.navbar-nav > li{
+  margin-left:20px;
+  margin-right:10px;
+}
+
+#main .carousel-inner img {
+  max-height: 100vh;
+  object-fit: cover;
+  -webkit-filter: brightness(50%); /* Safari 6.0 - 9.0 */
+  filter: brightness(50%);
+}
+
+#carousel{
+  position: relative ;
+}
+
+.overlay{
+  position: absolute ;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  
+}
+
+.peru {
+  color: #000000;
+}
+
+.carousel-content {
+  position: absolute;
+  bottom: 30%;
+  z-index: 20;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  width: 100% !important;
+  align-items: center;
+}
+
+.titulo_tugui{
+  max-width: 40%;
+  -webkit-filter: brightness(100%) !important; /* Safari 6.0 - 9.0 */
+  filter: brightness(100%) !important;
+}
+
+.descripcion_carousel_tugui{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.borde-botton-tugui{
+  padding-top: 1rem;
+}
+.descripcion_conocenos{
+  text-align: center;
+  color: #03F4CA;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 43px;
+  font-weight: 650;
+  padding-top: 4rem;
+  padding-bottom: 2.5rem;
+}
+
+.descripcion-conocenos-frase{
+  color: #FFFFFF;
+  line-height: 2;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 7.5rem;
+  width: 550px;
+  padding-left: 2rem;
+  font-weight: 520;
+}
+
+.conocenos-cita{
+  color: #03F4CA;
+  line-height: 2;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 2rem;
+}
+
+.titulo_guias{
+  color: #4907A5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: left;
+  width: 266px;
+  padding-bottom: 1rem;
+  border-bottom: 18px solid #03F4CA;
+}
+
+
+.titulo_nosotros{
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 47px;
+  font-weight: 700;
+  line-height: 1.05254;
+  text-align: left;
+  width: 229px;
+  padding-bottom: 1rem;
+  border-bottom: 18px solid #03F4CA;
+}
+
+.descripcion_titulo_guias{
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  width: 260px;
+  line-height: 1.5;
+  padding-top: 1rem;
+  color: #4d4d4d;
+}
+
+.descripcion_sub_nosotros{
+  color: #FFFFFF;
+  line-height: 1.4;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 2rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 18px solid #4907A5;
+  font-size: 16px;
+  font-weight: 600;
+  width: 409px;
+}
+
+.descripcion_nosotros{
+  color: #FFFFFF;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  line-height: 1.4;
+  font-weight: 600;
+  width: 425px;
+}
+
+.padding-guias {
+  margin-right: 10px !important;
+  margin-left: 60px !important;
+}
+
+.padding-objetivos {
+  padding-top: 2.5rem !important;
+  padding-bottom: 7rem !important;
+  margin-right: 10px !important;
+  margin-left: 100px !important;
+}
+
+.descripcion {
+  text-align: center;
+}
+
+.descripcion-tugui{
+  text-align: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 70px;
+  line-height: 55px;
+}
+
+
+.recorrido_botton{
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+
+.imagentugui{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+#place-time{
+  background-color: #000000;
+}
+
+section#place-time {
+  background-color: #4907A5;
+  color: white;
+}
+
+.nosotrosImagenTugui{
+  max-width: 100%;
+  width: 400px;
+  height: 400px;;
+}
+
+
+.album-integrantes {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+.album-guias{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+.album-integrantes p{
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+
+.album-nosotros{
+  background-color: #000000;
+  text-align: center;
+}
+
+.espacio_guias_apasionados{
+  padding-top: 4.5rem !important;
+  padding-bottom: 2.5rem !important;
+}
+
+.rounded-circle{
+  border-radius: 50%!important;
+}
+
+.estilo_descrip_miembros{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 70px;
+  line-height: 55px;
+  color: #000000;
+  font-size: 1rem ;
+  font-weight: 600;
+}
+
+
+.album-integrantes p{
+  color: #000000;
+}
