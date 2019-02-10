@@ -20,6 +20,28 @@
   height: 110px;
 }
 
+.estilo-header-opciones a{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 650;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #FFFFFF !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #8c8c8c !important;
+}
+
+.centro-div{
+}
+
+
+.estilo-header-opciones li{
+  margin-left: 5px !important;
+  margin-right: 10px !important;
+}
 
 .titulo_espacio_tugui_white  {
   text-align: left;
@@ -28,8 +50,12 @@
 }
 
 .titulo_espacio_tugui h1 {
-  border-bottom: 8px solid #4907A5;
+  border-bottom: 15px solid #4907A5;
   width: fit-content;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 43px;
+  font-weight: 650;
+  width: 221px;
 }
 
 .titulo_espacio_tugui_white h1 {
@@ -42,11 +68,22 @@
 }
 
 #footer{
-  background: linear-gradient(90deg, #1c3643 , #273b47 25%, #1e5372);
-  
+  background: #4907A5;
+}
+
+.descripcion-footer{
+  color: #FFFFFF;
 }
 
 #footer a{
+  color: white; 
+}
+
+#footer small{
+  color: white; 
+}
+
+#footer h5{
   color: white; 
 }
 
@@ -74,6 +111,7 @@
   object-fit: cover;
   -webkit-filter: brightness(50%); /* Safari 6.0 - 9.0 */
   filter: brightness(50%);
+  
 }
 
 #carousel{
@@ -110,6 +148,330 @@
   filter: brightness(100%) !important;
 }
 
+.descripcion_carousel_tugui{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12pt;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 600;
+  padding-bottom: 0.8rem;
+  /* border-bottom: 18px solid #4907A5; */
+  /* width: 400px; */
+  align-content: center;
+}
+
+.borde-botton-tugui{
+  padding-top: 1rem;
+}
+.descripcion_conocenos{
+  text-align: center;
+  color: #03F4CA;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 43px;
+  font-weight: 650;
+  padding-top: 4rem;
+  padding-bottom: 2.5rem;
+}
+
+.descripcion-conocenos-frase{
+  color: #FFFFFF;
+  line-height: 2;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 7.5rem;
+  width: 550px;
+  padding-left: 2rem;
+  font-weight: 520;
+}
+
+.conocenos-cita{
+  color: #03F4CA;
+  line-height: 2;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 2rem;
+}
+
+.titulo_experiencias {
+  color: #4907A5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 52px;
+  font-weight: 510;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.titulo_guias{
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 52px;
+  font-weight: 510;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.titulo_guias_morado{
+  color: #4907A5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 90px;
+  font-weight: 510;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.descripcion_titulo_guias{
+  color: #4d4d4d;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 510;
+  line-height: 1.2;
+  text-align: left;
+  width: 179px;
+  padding-bottom: 1.5rem;
+  padding-top: 2rem;
+}
+
+.center{
+  padding-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: relative;
+  display: inline-block;
+}
+
+
+.ayahuasca{
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.padding-tarjeta-ayahuasca{
+  padding-top: 5rem;
+  /* line-height: 200px; */
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.tarjeta-ayahuasca{
+    /* position: absolute; */
+    top: 10px;
+    left: 10px;
+    size: 100px;
+    width: 320px;
+    height: 240px;
+    background-color: #4907A5;
+}
+
+.titulo-izquierda-experiencias{
+  color: #FFFFFF;
+  line-height: 1.4;
+  text-align: right;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 2rem;
+  width: auto;
+  padding-right: 2.4rem;
+  font-weight: 520;
+}
+
+.descripcion-izquierda-experiencias{
+  color: #FFFFFF;
+  line-height: 1;
+  text-align: right;
+  font-family: 'Montserrat', sans-serif;
+  width: 280px;
+  padding-left: 6rem;
+  font-weight: 520;
+  font-size: 11px;
+}
+
+.titulo-derecha-experiencias{
+  color: #FFFFFF;
+  line-height: 1.4;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 2rem;
+  width: 200px;
+  padding-left: 2.4rem;
+  font-weight: 520;
+}
+
+.descripcion-derecha-experiencias{
+  color: #FFFFFF;
+  line-height: 1;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  width: 280px;
+  padding-right: 2rem;
+  padding-left: 2.5rem;
+  font-weight: 520;
+  font-size: 11px;
+}
+
+.tarjeta-derecha{
+  position: absolute;
+  size: 100px;
+  width: 320px;
+  height: 240px;
+  background-color: #4907A5;
+  float: right;
+}
+
+.tarjeta1{
+  right: 133px;
+  bottom:88px;
+}
+
+.espacio-imagen-centro{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.ayahuasca p {
+  background-color: #4907A5;
+  display: block;
+  position: absolute;
+  bottom: -16px;
+  left: 0;
+  padding: 5px;
+  width: 100%;
+}
+
+.descripcion_titulo_experiencias {
+  color: #4907A5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 94px;
+  font-weight: 510;
+  line-height: 0.9;
+  text-align: left;
+  width: 277px;
+  padding-bottom: 1.5rem;
+}
+
+.imagen-seguridad-guias{
+  text-align: left;
+  padding-top: 2rem;
+}
+
+.descripcion_final_guias{
+  padding-top: 5rem;
+  color: #4907A5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 510;
+  line-height: 1.1;
+  text-align: left;
+  padding-bottom: 0.8rem;
+  border-bottom: 18px solid #4907A5;
+  width: 271px;
+}
+
+.titulo_nosotros{
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 47px;
+  font-weight: 700;
+  line-height: 1.05254;
+  text-align: left;
+  width: 229px;
+  padding-bottom: 1rem;
+  border-bottom: 18px solid #03F4CA;
+}
+
+
+.descripcion_experiencias{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  padding-top: 1rem;
+  color: #4D4D4E;
+  padding-bottom: 0.5rem;
+  border-bottom: 18px solid #03F4CA;
+  width: 355px;
+  margin: 0 auto;
+}
+
+.descripcion_sub_nosotros{
+  color: #FFFFFF;
+  line-height: 1.4;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 2rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 18px solid #4907A5;
+  font-size: 16px;
+  font-weight: 600;
+  width: 409px;
+}
+
+.border-right{
+  border-right:18px solid #4907A5 !important;
+}
+
+.descripcion-fin{
+  line-height: 1;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    width: 350px;
+    padding-right: 2rem;
+    padding-left: 5.5rem;
+    padding-top: 0.5rem;
+    font-weight: 520;
+    font-size: 11px;
+    color: gray;
+}
+
+.titulo-fin{
+  color: #4907A5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 510;
+  line-height: 1.1;
+  padding-bottom: 0.8rem;
+  padding-left: 3.3rem;
+  width: 271px;
+}
+
+.descripcion_nosotros{
+  color: #FFFFFF;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  line-height: 1.4;
+  font-weight: 600;
+  width: 425px;
+}
+
+.padding-guias {
+  margin-right: 10px !important;
+  margin-left: 60px !important;
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+
+.prueba{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  flex-wrap: wrap;
+}
+
+
+
+.padding-objetivos {
+  padding-top: 2.5rem !important;
+  padding-bottom: 7rem !important;
+  margin-right: 10px !important;
+  margin-left: 100px !important;
+}
+
 .descripcion {
   text-align: center;
 }
@@ -120,8 +482,8 @@
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  height: 70px;
   line-height: 55px;
+  margin-bottom: 45px;
 }
 
 
@@ -137,24 +499,171 @@
     display: block;
 }
 
-
 #place-time{
   background-color: #000000;
 }
 
 section#place-time {
-  background-color: black;
+  background-color: #4907A5;
   color: white;
 }
 
 .nosotrosImagenTugui{
   max-width: 100%;
+  width: 400px;
+  height: 400px;
 }
 
 
+
+/*Destopk first*/
+
+@media screen and (max-width: 768px){
+  body{
+    border: 10px solid green;
+  }
+  .titulo_nosotros {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    /* font-size: 47px; */
+    /* font-weight: 700; */
+    /* line-height: 1.05254; */
+    /* text-align: left; */
+    /* width: 229px; */
+    /* padding-bottom: 1rem; */
+    /* border-bottom: 18px solid #03F4CA; */
+  }
+  .descripcion_sub_nosotros {
+    color: #FFFFFF;
+    line-height: 1.4;
+    /* text-align: left; */
+    font-family: 'Montserrat', sans-serif;
+    /* padding-top: 2rem; */
+    /* padding-bottom: 0.8rem; */
+    /* border-bottom: 18px solid #4907A5; */
+    /* font-size: 16px; */
+    /* font-weight: 600; */
+    /* width: 409px; */
+  }
+  .descripcion_nosotros {
+    color: #FFFFFF;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    line-height: 1.4;
+    /* font-weight: 600; */
+    /* width: 425px; */
+  }
+}
+
+@media screen and (max-width: 630px){
+  body{
+    border: 10px solid blue;
+  }
+  .titulo_nosotros {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    /* font-weight: 700; */
+    /* line-height: 1.05254; */
+    /* text-align: left; */
+    width: 100px;
+    padding-bottom: 0.5rem;
+    border-bottom: 10px solid #03F4CA;  
+  }
+
+  .descripcion_sub_nosotros {
+      color: #FFFFFF;
+      line-height: 1.4;
+      text-align: left;
+      font-family: 'Montserrat', sans-serif;
+      padding-top: 1rem;
+      padding-bottom: 0.8rem;
+      border-bottom: 10px solid #4907A5;
+      font-size: 12px;
+      font-weight: 600;
+      width: 233px;
+  }
+
+  .descripcion_nosotros {
+    color: #FFFFFF;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    line-height: 1.4;
+    font-weight: 500;
+    width: 250px;
+}
+}
+
+@media screen and (max-width: 320px){
+  body{
+    border: 10px solid red;
+  }
+  .titulo_nosotros {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    /* font-size: 47px; */
+    /* font-weight: 700; */
+    /* line-height: 1.05254; */
+    /* text-align: left; */
+    /* width: 229px; */
+    /* padding-bottom: 1rem; */
+    /* border-bottom: 18px solid #03F4CA; */
+  }
+  .descripcion_sub_nosotros {
+    color: #FFFFFF;
+    line-height: 1.4;
+    /* text-align: left; */
+    font-family: 'Montserrat', sans-serif;
+    /* padding-top: 2rem; */
+    /* padding-bottom: 0.8rem; */
+    /* border-bottom: 18px solid #4907A5; */
+    /* font-size: 16px; */
+    /* font-weight: 600; */
+    /* width: 409px; */
+  }
+  .descripcion_nosotros {
+    color: #FFFFFF;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    line-height: 1.4;
+    /* font-weight: 600; */
+    /* width: 425px; */
+  }
+}
+
+
+
 .album-integrantes {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+.album-guias{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+.album-integrantes p{
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+
+.album-nosotros{
   background-color: #000000;
   text-align: center;
+}
+
+.espacio_experiencias{
+  padding-top: 1rem !important;
+  padding-bottom: 2.5rem !important;
 }
 
 .rounded-circle{
@@ -162,6 +671,7 @@ section#place-time {
 }
 
 .estilo_descrip_miembros{
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   padding-right: 15px;
   padding-left: 15px;
@@ -170,8 +680,16 @@ section#place-time {
   height: 70px;
   line-height: 55px;
   color: #FFFFFF;
+  font-size: 1rem ;
+  font-weight: 600;
 }
 
+.posicion-nosotros{
+  padding-top: 3rem;
+  color: #000000;
+}
+
+
 .album-integrantes p{
-  color: #bfbfbf;
+  color: #000000;
 }
