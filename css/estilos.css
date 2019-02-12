@@ -1,7 +1,6 @@
 
 .text_tugui{
   background-color: #4907A5 !important;
-  border-radius: 10px !important;
 }
 
 .btn-tugui:hover {
@@ -143,7 +142,7 @@
 }
 
 .titulo_tugui{
-  max-width: 40%;
+  max-width: 50%;
   -webkit-filter: brightness(100%) !important; /* Safari 6.0 - 9.0 */
   filter: brightness(100%) !important;
 }
@@ -155,7 +154,6 @@
   padding-bottom: 1rem;
   font-weight: 600;
   padding-bottom: 0.8rem;
-  /* border-bottom: 18px solid #4907A5; */
   /* width: 400px; */
   align-content: center;
 }
